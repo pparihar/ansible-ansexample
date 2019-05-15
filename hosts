@@ -1,0 +1,14 @@
+
+[webservers:vars]
+ansible_ssh_private_key_file=/home/ec2-user/file.pem          
+[webservers]
+172.17.3.243
+
+[dbservers]
+db1
+
+[lbservers]
+lb1
+
+[monitoring]
+nagios
